@@ -8,9 +8,11 @@ size = Vector2(18, 18)
 [node name="Block" type="StaticBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
 texture = ExtResource("1_leb1v")
 region_enabled = true
 region_rect = Rect2(126, 36, 18, 18)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource("RectangleShape2D_it67n")
