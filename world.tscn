@@ -5,6 +5,9 @@
 
 [node name="World" type="Node2D"]
 
+[node name="Player" parent="." instance=ExtResource("2_6ehvi")]
+position = Vector2(105, 87)
+
 [node name="Block" parent="." instance=ExtResource("1_xwbvr")]
 position = Vector2(123, 108)
 
@@ -34,6 +37,3 @@ position = Vector2(213, 72)
 
 [node name="Block9" parent="." instance=ExtResource("1_xwbvr")]
 position = Vector2(231, 72)
-
-[node name="Player" parent="." instance=ExtResource("2_6ehvi")]
-position = Vector2(105, 87)
